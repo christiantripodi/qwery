@@ -1,0 +1,174 @@
+body {
+  background: rgb(42, 43, 43);
+
+}
+
+
+
+.form-control {
+  border-radius: 0;
+}
+
+.navbar.fixed-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  background-color: #62CE6A;
+
+  z-index: 2000;
+}
+
+
+
+
+.navbar.fixed-left .navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+.nav-btn {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.nav-link i {
+  font-size: 1.5em;
+}
+
+.signup-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.signup-btn:hover {
+  color: white;
+  background-color: rgb(9, 120, 9);
+  border: none;
+}
+
+.login-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: rgb(9, 120, 9);
+  border: none;
+}
+
+
+
+.bg-container {
+  height: 5.5rem;
+  background-color: #282828;
+}
+
+.playerControls div {
+  justify-content: space-between;
+}
+
+
+
+.playerControls a img {
+  width: 18px;
+  margin-top: 1rem;
+  filter: brightness(60%);
+}
+
+.playerControls a:hover {
+  filter: brightness(80%);
+  color: #282828 !important;
+}
+
+.progress {
+  color: white;
+  background-color: #414141;
+  height: 3px;
+}
+
+
+.mainLinks {
+  margin-top: 1.5rem;
+  justify-content: space-evenly;
+}
+
+.mainLinks a {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.mainLinks a:hover {
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.imgLinks a p,
+.mainPage p {
+  margin-top: 18px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+
+#bonobo {
+  color: white;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+#pop {
+  color: white;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+#blues {
+  color: white;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+#nirvana {
+  color: white;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+#blues {
+  color: white;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+
+
+.mainPage img {
+  width: 200px;
+}
